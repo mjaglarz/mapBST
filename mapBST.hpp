@@ -307,7 +307,7 @@ typename MapBST<K, V>::Iterator MapBST<K, V>::begin(){
     }else if(root->right != nullptr){
       root = root->right;
     }else{
-      return MapBST<K, V>::Iterator(this, root);
+      return Iterator(this, root);
     }
   }
 }
