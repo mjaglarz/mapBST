@@ -70,7 +70,6 @@ int main(){
   printMapSizeAndElements(map);
   const auto map4 = map;
   printMapSizeAndElements(map4);
-  auto it2 = map4.find(10);
 
   map[2] = "two (corrected)";
   map[20] = "twenty";
